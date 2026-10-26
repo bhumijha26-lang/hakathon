@@ -1,0 +1,186 @@
+
+body {
+    background-image: url("images/campus.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.hero {
+    min-height: 90vh;
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.tagline {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: teal;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.primary-btn,
+.secondary-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.primary-btn {
+    background-color: teal;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: rgba(255, 255, 255, 0.45);
+    color: teal;
+    border: 1px solid white;
+}
+
+header {
+    background-color: transparent;
+    padding: 15px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.explore-btn {
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.picnic-body {
+    background-image: none;
+    font-family: Arial, sans-serif;
+}
+
+.picnic-poster {
+    width: 580px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+    background-image: url("images/summer.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-align: center;
+}
+
+
+
+.picnic-poster h1 {
+    color: rgb(0, 153, 255);
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 95px;
+}
+
+
+.picnic-poster h2 {
+    color: coral;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+
+.picnic-poster h3 {
+    color: green;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+
+
+
+.picnic-poster ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+
+.picnic-date {
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.picnic-address {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.picnic-website {
+    font-size: 14px;
+    margin-top: 15px;
+}
