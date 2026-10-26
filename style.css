@@ -11,12 +11,11 @@ body {
     min-height: 90vh;
     text-align: center;
     padding: 30px 20px;
-    box-sizing: border-box;
 }
 
 .tagline {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: white;
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 14px;
@@ -55,10 +54,9 @@ body {
 }
 
 .secondary-btn {
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: white;
     color: teal;
-    border: 1px solid white;
-}
+} 
 
 header {
     background-color: transparent;
@@ -138,7 +136,7 @@ nav ul li a {
 .picnic-poster h2 {
     color: coral;
     font-size: 30px;
-    margin-top: 0;
+    margin-top: opx;
     margin-bottom: 20px;
 }
 
@@ -170,7 +168,7 @@ nav ul li a {
     font-size: 20px;
     width: 280px;
     padding: 5px;
-    margin: 20px auto;
+    margin: auto;
 }
 
 .picnic-address {
